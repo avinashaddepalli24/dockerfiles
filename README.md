@@ -9,6 +9,12 @@ Dockerfile is a declarative way of creating our own images.Docker will give us s
  ```
  docker build -t [docker-hub-URL]/[your-username]/[image-name]:versoin .
  ```
+
+ ### How to push image to Dockerhub
+
+ ```
+ docker push [docker-hub-URL]/[your-username]/[image-name]:versoin .
+ ```
  
 
 
